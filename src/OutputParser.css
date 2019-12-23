@@ -1,0 +1,39 @@
+.outputtextarea {
+  /* border : 1px solid blue; */
+  background: whitesmoke;
+  outline: none;
+
+}
+
+.outputhref {
+  background: whitesmoke;
+  padding: 20px;
+  border:1px solid black
+}
+
+img{
+  width: auto;
+  height: auto;
+  max-width: 100%;
+}
+@media only screen and (max-width: 600px) {
+  .outputtextarea {
+    width: -webkit-fill-available;
+    border:1px solid black
+  }
+  img{
+    margin: 10px 0;
+  }
+  .outputhref {
+    height: 100px;
+    overflow: scroll;
+    padding: 0;
+   /* max-width: 100%;
+    width: auto;
+    height: auto; */
+    display: block;
+    margin: 10px;
+    border:1px solid black
+  
+  }
+}

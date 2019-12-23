@@ -1,4 +1,24 @@
 .App {
+  /* text-align: center; */
+  display: flex;
+    flex-grow: 1;
+    justify-content: space-evenly;
+    margin: 10px;
+    border: 1px solid;
+    padding: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+  .App{
+  display: block;
+  
+  margin: 10px;
+  border: 1px solid
+}
+}
+
+
+h2 {
   text-align: center;
 }
 

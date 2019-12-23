@@ -1,0 +1,14 @@
+.inputtextarea {
+  /* border : 1px solid red; */
+  background: whitesmoke;
+  border:1px solid black;
+  outline: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .inputtextarea {
+    width: -webkit-fill-available;
+    border:1px solid black
+  }
+  
+}
